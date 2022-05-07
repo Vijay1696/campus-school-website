@@ -1,0 +1,229 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+		
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.menu-bar{
+	background: rgb(159, 107, 0);
+	text-align: center;
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding: 15px;
+}
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #000000;
+}
+.menu-bar ul li:hover{	
+	background: rgb(57, 95, 144);
+	border-radius: 3px;
+
+}
+.sub-menu-1{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background: rgb(57, 95, 144);
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+	border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+	color: #b2ff00;
+}
+.container{
+	width: 350px;
+	margin: 0 auto;
+}
+.container ul{
+	list-style: none;
+	margin-top: 2%;
+	color: #fff;
+}
+.container ul li{
+	width: 170px;
+	border: 1px solid #000000;
+	border-radius: 2px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: #fff;
+	font-size: 14px;
+	position: relative;
+	font-family: big john;
+}
+.container ul li a {
+	color: black;
+}
+.container ul li :hover{
+	background: yellow; 
+}
+.wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+.wrapper ul{
+	list-style: none;
+	margin-top: 2%;
+	color: #fff;
+}
+.wrapper ul li a{
+	background: #262626;
+	width: 200px;
+	border: 1px solid #fff;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	float: left;
+	color: #fff;
+	font-size: 18px;
+	position: relative;
+	
+}
+.wrapper ul li a:hover{
+	background: crimson;
+}
+.boxcontainer{
+	margin: auto;
+	margin-top: 20%;
+	position: relative;
+	width: 300px;
+	height: 42px;
+	border: 4px solid #2980b9;
+	padding: 0px 10px;
+	border-radius: 50px;
+
+}
+.elementcontainer{
+	width: 100%;
+	height: 10%;
+	vertical-align: middle;
+}
+.search{
+	border: none;
+	width: 100%;
+	height: 100%;
+	padding: 0px 5px;
+	border-radius: 50px;
+	font-size: 18px;
+	font-family: "Nunito";
+	color: #424242;
+	font-weight: 500;
+}
+.search:focus{
+	outline: none;
+}
+.material-icons{
+	font-size: 26px;
+	color: #2980b9;
+}
+.outerbox{
+	width: 620px;
+	overflow: hidden;
+}
+.slider{
+	position: relative;
+	width: 2400px;
+	animation-name:Jamal;
+	animation-duration: 20s ;
+	animation-iteration-count:infinite;
+}
+.slider img{
+	float: left;
+}
+@keyframes Jamal{
+	0%{
+		left: 0px;
+	}
+	20%{
+		left: 0px;
+	}
+
+	25%{
+		left: -600px;
+	}
+
+	45%{
+		left: -600px;
+	}
+
+	50%{
+		left: -1200px;
+	}
+
+	70%{
+		left: -1200px;
+	}
+
+	75%{
+		left: -1800px;
+	}
+
+	95%{
+		left: -1800px;
+	}
+
+	100%{
+		left: -2400px;
+	}
+}
+.footer{
+	background: rgb(57, 95, 144);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
